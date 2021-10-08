@@ -25,8 +25,9 @@ const MensajeNombreCompleto = (nombrecompleto) => document.getElementById("Nombr
 var n1 = 0;
 
 const calcularSuma1 = () => {
-    var Sumar1 = n1 + 1 ;
-    mensaje1(`${Sumar1}`);
-}
-
-const mensaje1 = (mensaje1) => document.getElementById("Resultado1").value = mensaje1;
+    for (i=0; i<=10; i++){
+        if (i == 0) {
+            n1+=1;
+        }
+    document.getElementById("Resultado1").value = (`${n1}`);
+}}
