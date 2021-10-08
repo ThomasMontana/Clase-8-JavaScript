@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 body{
+    margin-top: 10px;
+    margin-left: 10px;
     font-family: 'Urbanist', sans-serif;
 }
 h1{
